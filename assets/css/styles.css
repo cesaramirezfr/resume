@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caesar+Dressing|Lato|Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Lato');
 @import "nord.css";
 
 *,
@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem;
   border: 0;
-  line-height: 1.2;
+  line-height: 1.2;  
+  font-family: 'Big Shoulders Text', cursive;
 }
 
 p,
@@ -69,12 +70,10 @@ img {
 
 h1 {
   font-size: 3rem;
-  font-family: 'Caesar Dressing', cursive;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-family: 'Rock Salt', cursive;
 }
 
 h3 {
@@ -283,7 +282,7 @@ h6 {
 
 .header .name {
   font-size: 2.25rem;
-  letter-spacing: 0.175rem;
+  /* letter-spacing: 0.175rem; */
 }
 
 .header .title {
