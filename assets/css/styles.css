@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Caesar+Dressing|Lato|Rock+Salt');
+@import "nord.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+article, header, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--nord0);
+  background-color: var(--nord4);
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border: 0;
+  line-height: 1.2;
+}
+
+p,
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+small {
+  font-size: 80%;
+}
+
+a {
+  color: var(--nord3);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: var(--nord2);
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Caesar Dressing', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Rock Salt', cursive;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar,
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.p-5 {
+  padding: 3rem !important;
+}
+
+.mt-0,
+.my-0 {
+  margin-top: 0 !important;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mb-1,
+.my-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mr-3,
+.mx-3 {
+  margin-right: 1rem !important;
+}
+
+.mb-5,
+.my-5 {
+  margin-bottom: 3rem !important;
+}
+
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important;
+}
+
+.pt-4,
+.py-4 {
+  padding-top: 1.5rem !important;
+}
+
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+@media (min-width: 802px) {
+  body {
+    text-align: left;
+  }
+  .flex-md-row {
+    flex-direction: row !important;
+  }
+  .pt-md-0,
+  .py-md-0 {
+    padding-top: 0 !important;
+  }
+  .ml-md-auto {
+    margin-left: auto !important;
+  }
+  .sidebar {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .main {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .mr-md-0,
+  .mx-md-0 {
+    margin-right: 0 !important;
+  }
+  .ml-md-0,
+  .mx-md-0 {
+    margin-left: 0 !important;
+  }
+}
+/* 
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+} */
+
+.wrapper {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.wrapper-inner {
+  max-width: 1000px;
+  background-color: var(--nord6);
+}
+
+.header {
+  background-color: var(--nord1);
+  color: var(--nord6);
+  height: 150px;
+}
+
+.header .profile-picture {
+  width: 150px;
+}
+
+.header .name {
+  font-size: 2.25rem;
+  letter-spacing: 0.175rem;
+}
+
+.header .title {
+  font-size: 1.5rem;
+}
+
+.header .fa-container {
+  font-size: 1rem;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.social,
+.skills {
+  font-size: 0.875rem;
+}
+
+.fa-container {
+  /* font-size: 1rem; */
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  background: var(--nord0);
+}
+
+.degree {
+  font-weight: 700;
+}
+
+.college {
+  font-size: 0.875rem;
+}
+
+.degree-time {
+  font-size: 0.875rem;
+  color: var(--nord3);
+}
+
+.timeline {
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background: var(--nord3);
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+
+.timeline-item::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid var(--nord1);
+  background: var(--nord5);
+  border-radius: 50%;
+}
+
+.position-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.company-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.position-time {
+  font-size: 0.875rem;
+  color: var(--nord3);
+}
+
+@media (max-width: 801.98px) {
+  body {
+    text-align: center;
+  }
+  .wrapper {
+    padding-top: 0;
+  }
+  .header {
+    height: auto;
+  }
+  .header .profile-picture {
+    width: 120px;
+    border-radius: 50%;
+  }
+}
